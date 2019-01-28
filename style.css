@@ -1,0 +1,38 @@
+body {
+    background-color: plum;
+    margin: 0;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulosdoformulario {
+    font-size: 30px;
+    text-align: left;
+}
+
+#ibagens {
+    background-color: aqua;
+    display: flex; 
+    /* justify-content: center; ---- vai distribuir os elementos igualmente, e alinhados ao centro */
+    justify-content: space-around; 
+    /* flex-wrap: wrap;  --- flex wrap: pula pra linha de baixo quando atinge o limite */
+    flex-direction: row;
+    padding: 20px;
+    /* align-items: center;  */
+}
+
+#ibagens img {
+    width: 100%;
+}
+
+#ibagens div {
+    padding: 10px;
+}
+
+#ibagens p {
+    text-align: center;
+}
